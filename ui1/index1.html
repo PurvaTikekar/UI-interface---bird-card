@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel 1</title>
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Carousel Container -->
+
+    <div class="container"> <!--container div starts-->
+        <!-- Slides -->
+
+        <div class="main-slides"> <!--main slide div starts-->
+
+            <div class="slide">
+                <img src="images/slide1.jpeg" alt="image 1">
+                <div class="caption">A blue and black bird</div>
+            </div>
+
+            <div class="slide">
+                <img src="images/slide2.jpeg" alt="image 2">
+                <div class="caption">A blue and brown bird</div>
+            </div>
+
+            <div class="slide">
+                <img src="images/slide3.jpeg" alt="image 3">
+                <div class="caption">An orange and black bird</div>
+            </div>
+
+        </div> <!--main slide div ends-->
+
+        <!-- Dots for navigation -->
+
+        <div class="dots"> <!--dots div start-->
+
+            <span class="dot" onclick="displayImage(1)"></span>
+            <span class="dot" onclick="displayImage(2)"></span>
+            <span class="dot" onclick="displayImage(3)"></span>
+
+        </div> <!--dots div end-->
+
+        <button class="button">Button</button>
+    </div> <!--container div ends-->
+
+    <!-- Static Button below the carousel -->
+
+    
+
+    <!-- Link to the external JavaScript file -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
